@@ -1,0 +1,27 @@
+.about__wrapper {
+  background-color: var(--third-brand-color);
+}
+.about  {
+  padding: 5rem 0;
+}
+.about .text {
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 1024px) {
+  .about  {
+    padding: 10rem 0;
+  }
+  .about .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about .text {
+    margin: 0;
+  }
+  .about .item {
+    width: 33%;
+  }
+}
